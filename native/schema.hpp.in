@@ -1,0 +1,2 @@
+#pragma once
+constexpr const char* parameterSchema = R"CKSCHEMA(@PARAMETER_SCHEMA@)CKSCHEMA";

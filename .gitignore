@@ -1,0 +1,102 @@
+# Downloaded dependencies and local caches.
+/.deps/
+.cache/
+.superpowers/
+
+# Python environments, bytecode and package output.
+# Keep pyproject.toml, uv.lock and .python-version under version control.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.eggs/
+*.egg-info/
+*.egg
+*.whl
+dist/
+
+# Python test, lint and coverage output.
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.tox/
+.nox/
+.hypothesis/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# CMake/Ninja build trees and generated configuration.
+# Keep CMakePresets.json; CMakeUserPresets.json is machine-specific.
+/build/
+/build-*/
+/build_*/
+/cmake-build-*/
+CMakeFiles/
+CMakeScripts/
+CMakeCache.txt
+CMakeLists.txt.user*
+CMakeUserPresets.json
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+Testing/
+_deps/
+/Makefile
+build.ninja
+rules.ninja
+.ninja_deps
+.ninja_log
+
+# Compiled native libraries, plugins, debug data and coverage output.
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.pdb
+*.gch
+*.pch
+*.dwo
+*.ofx
+*.ofx.bundle/
+*.gcda
+*.gcno
+*.gcov
+*.profraw
+*.profdata
+
+# This project's generated files and test executables if built in-source.
+/generated/
+/abi_host
+/bridge_tests
+/host_tests
+/native_tests
+/ofx_contract_tests
+/shot_tests
+
+# Private prompts, research notes and local acceptance artifacts.
+/Stickies/
+/_resources/
+/docs/superpowers/
+/DESIGN.md
+/PRODUCT.md
+/research/
+/screenshots/
+*.drp
+*.dra/
+*.comp
+*.jsonl
+*.log
+
+# Local environment values. Example files must contain placeholders only.
+.env
+.env.*
+!.env.example
+!.env.template
